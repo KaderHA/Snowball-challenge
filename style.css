@@ -8,16 +8,10 @@
 	box-sizing: border-box;
 }
 
-/*Background*/
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 body {
 	background-color: #101820FF;
 	min-height: 100vh;
+	overflow-x: hidden;
 }
 
 .flex-container {
