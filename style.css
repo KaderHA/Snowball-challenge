@@ -24,12 +24,6 @@ body {
 	padding-bottom: 20px;
 }
 
-.filler {
-	height: 100px;
-	width: 100vw;
-	background-color: rgb(30,30,33);
-}
-
 /*nav bar */
 
 li, a, button {
@@ -41,10 +35,11 @@ li, a, button {
 
 nav {
 	display: flex;
-	height: 64px;
+	height: 8vh;
 	background-color: rgb(30,30,33);
 	align-items: center;
 	justify-content: space-between;
+	margin-bottom: 40px;
 }
 
 a.logo {
@@ -88,7 +83,7 @@ label.logo:hover {
 }
 
 .front h1 {
-	margin: 20px 0px;
+	padding: 20px 10px;
 	font-weight: 500;
 	font-weight: bold;
 	font-size: 64px;
@@ -117,7 +112,6 @@ label.logo:hover {
 /*footer*/
 
 footer {
-	margin-top: 36px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
