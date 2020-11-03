@@ -143,21 +143,15 @@ footer details summary:hover {
 @media only screen and (max-width: 1000px) {
 .flex-container {
 	width: 100vw;
-	margin: 0 auto;
 }
 
 .front img {
 	width: 100vw;
 	margin: 50px 0px;
 }
-.filler {
-	height: 80px;
-	width: 100vw;
-	background-color: #101820FF;
-}
 nav {
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .col-small-10 {width: 10%;}
