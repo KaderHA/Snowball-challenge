@@ -8,8 +8,10 @@
 	box-sizing: border-box;
 }
 
+/*Background*/
+
 body {
-	background-color: #101820FF;
+	background-color: rgb(30,30,33);
 	min-height: 100vh;
 	overflow-x: hidden;
 }
@@ -25,7 +27,7 @@ body {
 .filler {
 	height: 100px;
 	width: 100vw;
-	background-color: #101820FF;
+	background-color: rgb(30,30,33);
 }
 
 /*nav bar */
@@ -40,7 +42,7 @@ li, a, button {
 nav {
 	display: flex;
 	height: 64px;
-	background-color: #101820FF;
+	background-color: rgb(30,30,33);
 	align-items: center;
 	justify-content: space-between;
 }
@@ -82,7 +84,7 @@ label.logo:hover {
 .front h1, h2, h3, p {
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
-	color: #101820FF;
+	color: rgb(30,30,33);
 }
 
 .front h1 {
@@ -119,7 +121,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #101820FF;
+    background-color: rgb(30,30,33);
     color: #f5f5f5;
 }
 
